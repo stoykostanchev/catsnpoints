@@ -2,6 +2,8 @@
 
 An app allowing the users to score themselves on categories and scales they create
 
+To see the frontend in action [click here](https://stoykostanchev.github.io/catsnpoints/frontend/).
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development.
