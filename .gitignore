@@ -1,6 +1,6 @@
 # elm-package generated files
-elm-stuff/
+frontend/elm-stuff/
 # elm-repl generated files
-repl-temp-*
+frontend/repl-temp-*
 
-elm.js
+frontend/elm.js
