@@ -42,8 +42,10 @@ Progress on the actual piece of software
 ### Phase 4
 
 Introduce extra functionalities
+
 * Charts
 * persistance
 
 ### Phase 5
+
  TBD
