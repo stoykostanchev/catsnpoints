@@ -7,15 +7,15 @@ if [ $branch == 'master' ]
 then
 echo '------------------------'
 echo '--- Updating docs... ---'
-git stash
 git checkout gh-pages
 git merge master
+cd ./frontend
 elm make src/Main.elm --output elm.js
 git add src/ elm.js
 git commit -m 'Rebuild gh pages'
 git push origin gh-pages
 git checkout master
-git stash apply
+cd ./../
 echo '--- Updating docs complete! ---'
 echo '-------------------------------'
 fi
